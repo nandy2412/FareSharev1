@@ -1,0 +1,48 @@
+# Node modules (massive & recreated by npm/yarn)
+node_modules/
+
+# Environment variables (secrets, DB URLs, API keys)
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Test coverage reports
+coverage/
+
+dist/
+build/
+
+# MongoDB local data dumps
+dump/
+
+# Postman collections / environments with tokens (optional)
+*.postman_environment.json
+*.postman_collection.json
+
+# Dependency lock for yarn if using npm, and vice versa
+yarn.lock
+package-lock.json
+
+# Optional: Crash reports
+*.pid
+*.seed
+
+data/
+db/
+
+# Firebase
+firebaseserviceaccount.json
